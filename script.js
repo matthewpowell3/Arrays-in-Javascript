@@ -3,8 +3,8 @@
 var car = ['Honda', 'Bimma', 'Crown'];
 car.push('Go cart');
 // var vegetables = new Array('Carrrot', 'Green beans', 'Pepper');
-for (var i = 0; i < 3; i++) {
-  document.write('<h1>' + vegetables[i] + '</h1>');
+for (var i = 0; i < 4; i++) {
+  document.write('<h1>' + car[i] + '</h1>');
   // for loop will go from one to three
 }
 // index zero
