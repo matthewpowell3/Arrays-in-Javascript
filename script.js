@@ -1,10 +1,14 @@
 // Arrays in Javascript
 //          0       1         2
-var car = ['Hond', 'Bimma', 'Crown'];
-document.write('<h1>' + car + '</h1>');
-document.write('<h1>' + car[0] + '</h1>');
+var car = ['Honda', 'Bimma', 'Crown'];
+car.push('Go cart');
+// var vegetables = new Array('Carrrot', 'Green beans', 'Pepper');
+for (var i = 0; i < 3; i++) {
+  document.write('<h1>' + vegetables[i] + '</h1>');
+  // for loop will go from one to three
+}
 // index zero
-// too select one out of the rest you must first know the index which starts from xeron so honda is zero bimma is one
+// too select one out of the rest you must first know the index which starts from zero so honda is zero bimma is one
 
 /*
 var car1 = 'Honda';
