@@ -1,6 +1,7 @@
 // Arrays in Javascript
 //          0       1         2
 var car = ['Honda', 'Bimma', 'Crown'];
+// push add and pop removes
 car.push('Go cart');
 // var vegetables = new Array('Carrrot', 'Green beans', 'Pepper');
 for (var i = 0; i < 4; i++) {
