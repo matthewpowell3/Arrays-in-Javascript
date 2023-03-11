@@ -3,6 +3,10 @@
 var car = ['Honda', 'Bimma', 'Crown'];
 // push add and pop removes
 car.push('Go cart');
+car.pop();
+car.pop();
+car.push('Tesla');
+// it removes go cart
 // var vegetables = new Array('Carrrot', 'Green beans', 'Pepper');
 for (var i = 0; i < 4; i++) {
   document.write('<h1>' + car[i] + '</h1>');
